@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.844" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="Billing .feature" name="BillingPage - Example #1.1" time="0.038">
+<system-out><![CDATA[
+Given User on Billing Page..................................................passed
+When User enter the billing amount "300"....................................passed
+And User enter the Tax amount in "20".......................................passed
+And Click on Calculate button...............................................passed
+Then it return  the Final Amount"320".......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Billing .feature" name="BillingPage - Example #1.2" time="0.005">
+<system-out><![CDATA[
+Given User on Billing Page..................................................passed
+When User enter the billing amount "500"....................................passed
+And User enter the Tax amount in "15.00"....................................passed
+And Click on Calculate button...............................................passed
+Then it return  the Final Amount"515.00"....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Billing .feature" name="BillingPage - Example #1.3" time="0.009">
+<system-out><![CDATA[
+Given User on Billing Page..................................................passed
+When User enter the billing amount "350"....................................passed
+And User enter the Tax amount in ".1345"....................................passed
+And Click on Calculate button...............................................passed
+Then it return  the Final Amount"351.1345"..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Billing .feature" name="BillingPage - Example #1.4" time="0.012">
+<system-out><![CDATA[
+Given User on Billing Page..................................................passed
+When User enter the billing amount "785"....................................passed
+And User enter the Tax amount in "0.1545"...................................passed
+And Click on Calculate button...............................................passed
+Then it return  the Final Amount"785.1545"..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Billing .feature" name="BillingPage - Example #1.5" time="0.004">
+<system-out><![CDATA[
+Given User on Billing Page..................................................passed
+When User enter the billing amount "1000"...................................passed
+And User enter the Tax amount in "20".......................................passed
+And Click on Calculate button...............................................passed
+Then it return  the Final Amount"1020"......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

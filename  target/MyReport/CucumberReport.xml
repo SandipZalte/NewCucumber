@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.614" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="" name="New user registrtion" time="0.059">
+<system-out><![CDATA[
+Given user open the registration page.......................................passed
+When user enter the all below details.......................................passed
+Then Regstration successful msg Show........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="New user registrtion with different data from Column" time="0.008">
+<system-out><![CDATA[
+Given user open the registration page.......................................passed
+When user enter the all below details column................................passed
+Then Regstration successful msg Show........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
